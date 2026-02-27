@@ -1,0 +1,9 @@
+[build]
+  base = "a.m.-enterprise-pvt-ltd"
+  command = "npm run build"
+  publish = "a.m.-enterprise-pvt-ltd/dist"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
