@@ -126,6 +126,20 @@ main,
   color: var(--accent);
 }
 
+.nav-download {
+  padding: 0.35rem 0.85rem;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--accent) 55%, transparent);
+  color: var(--accent);
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+
+.nav-download:hover {
+  background: color-mix(in srgb, var(--accent) 12%, transparent);
+  box-shadow: 0 4px 14px color-mix(in srgb, var(--accent) 22%, transparent);
+  color: var(--accent);
+}
+
 .site-header {
   display: flex;
   align-items: center;
